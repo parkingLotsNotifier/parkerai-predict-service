@@ -1,7 +1,0 @@
-torch
-torchtext
-torchvision
-torchserve
-torch-model-archiver
-captum
-pyyaml

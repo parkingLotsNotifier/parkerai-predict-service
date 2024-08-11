@@ -4,8 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+torch = "*"
+torchtext = "*"
+torchvision = "*"
+torchserve = "*"
+torch-model-archiver = "*"
+captum = "*"
+pyyaml = "*"
+numpy = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.10"
+python_full_version = "3.10.14"

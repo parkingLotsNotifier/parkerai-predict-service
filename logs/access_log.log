@@ -1,0 +1,10 @@
+2024-08-11T20:23:02,379 - /[0:0:0:0:0:0:0:1%0]:56000 "POST /predic/mobilenet_v3 HTTP/1.1" 404 6
+2024-08-11T20:23:39,107 - /[0:0:0:0:0:0:0:1%0]:56049 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 1408
+2024-08-11T20:25:31,881 - /[0:0:0:0:0:0:0:1%0]:56075 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 64
+2024-08-11T20:26:27,142 - /[0:0:0:0:0:0:0:1%0]:56099 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 1268
+2024-08-11T20:29:02,702 - /[0:0:0:0:0:0:0:1%0]:56131 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 6433
+2024-08-11T20:31:29,608 - /[0:0:0:0:0:0:0:1%0]:56151 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 1258
+2024-08-11T20:34:29,534 - /[0:0:0:0:0:0:0:1%0]:56176 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 29386
+2024-08-11T20:35:26,257 - /[0:0:0:0:0:0:0:1%0]:56191 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 63
+2024-08-11T20:47:34,662 - /[0:0:0:0:0:0:0:1%0]:56387 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 20857
+2024-08-11T21:04:56,345 - /[0:0:0:0:0:0:0:1%0]:56713 "POST /predictions/mobilenet_v3 HTTP/1.1" 503 23999
