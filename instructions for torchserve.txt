@@ -1,0 +1,13 @@
+1. install erquirments:
+    pip install requirements.txt
+2. make sure the model (pth file) is within ./model-and-labels folder
+3. make sure the handler file (mobileNetV3Handler)
+
+4. archive the model   
+
+    torch-model-archiver --model-name mobilenet_v3 --version 1.0 --model-file mobileNetV3Handler.py --serialized-file ./model-and-labels/model_epochs_10_IMAGENET1K_V2.pth --handler mobileNetV3Handler --export-path ./export_models
+
+5. start torchServe 
+    torchserve --start --ncs --model-store ./export_models --models mobilenet_v3.mar --ts-config ./config.properties
+6. stop torchServe
+    torchserve --stop
